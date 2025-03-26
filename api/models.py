@@ -10,3 +10,6 @@ class KrollHaloMapping(models.Model):
 
     class meta:
         ordering = ["created_at"]
+
+    def __str__(self):
+        return self.kroll_ticket_id

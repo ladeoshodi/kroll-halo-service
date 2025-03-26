@@ -15,4 +15,4 @@
    `pip install -r requirements.txt`
 
 4. Start the server
-   `fastapi dev main.py`
+   `python manage.py runserver`
